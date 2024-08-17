@@ -51,12 +51,14 @@ const Footer = () => {
           <h3 className='text-xl font-bold mb-4 text-white'>Datos de contacto</h3>
          
           <a className='mb-3 text-white' href='mailto:sgstumm@gmail.com'>✉ sgstumm@gmail.com</a>
-      
+          <p
+          className='text-blue-500 font-bold text-xl pt-5'
+          >Simón Sánchez</p>
         </div>
 
       </div>
 
-      <div className="w-5/6 h-1 border-solid border-t-2 border-blue-500 p-0 mt-20 md:mt-5"></div>
+      <div className="w-5/6 h-1 border-solid border-t-2 border-blue-500 p-0 mt-8 md:mt-5"></div>
 
       <div className=' flex justify-around items-center m-0 p-0'>
         <p className='p-2 text-white'>Copyright © 2024</p>

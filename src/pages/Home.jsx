@@ -31,48 +31,79 @@ const Home = () => {
                 <h2 className="text-4xl md:text-6xl font-extrabold mb-8">Sobre Mí</h2>
                 <div className="w-20 h-1 bg-white mx-auto mb-8"></div> {/* Línea divisoria */}
                 <p className="text-lg md:text-xl mb-6 italic">Soy Simón, un pianista y compositor con una pasión profunda por la música...</p>
-                <div className="flex flex-col md:flex-row ">
+                <div className="flex flex-col ">
 
-                    <div className="flex md:flex-col flex-row items-center gap-5 m-auto w-2/3 mt-5 mb-10 justify-center md:gap-32">
-                        <img src="../img/simonfr1.jpg" alt="Simón" className="rounded-full shadow shadow-white  md:w-2/5 w-1/2 " />
-                        <img src="../img/pianof.png" alt="Simón" className="rounded-full shadow shadow-white  md:w-2/5 w-1/2 " />
+                    <div className="flex flex-col md:flex-row items-center gap-5 m-auto w-4/5 mt-5 mb-10 justify-center ">
+                        <img src="../img/simonfr1.jpg" alt="Simón" className="rounded-full shadow shadow-white  md:w-1/4 w-1/2 " />
+                        <div className="flex flex-col md:w-3/5  md:ml-20">
+
+                            <p className="mb-4">
+                                Mis primeros pasos con la música los dí en el coro juvenil de la municipalidad de Morón, junto a la Maestra
+                                Patricia Cabdepón, para posteriormente continuarlos en el conservatorio "Alberto Ginastera".
+                            </p>
+                            <p className="mb-4">
+                                En dicha institución me formé como pianista con los maestros Gabriel Goldenberg y Marcos Puente Olivera.
+                                También me formé en composición musical con los maestros, Marcelo di Matthaeis,
+                                Claudio Schulkin, Jorge Sad y Eduardo Gramegna.
+                            </p>
+                            <p className="mb-4">
+                                En el año 2008 fui becado por el fondo nacional de las artes, lo cual me llevó
+                                a publicar en el año 2010 junto a mi amigo y colega Darío Duarte Nuñez el libro “Introducción a la obra y al pensamiento de Juan Carlos Paz”
+                                y a grabar el cd Introducción a la obra pianística de Juan Carlos Paz.
+                            </p>
+                        </div>
                     </div>
 
-                    <div className="text-left md:w-1/2 text-lg leading-relaxed">
-                        <p className="mb-4">
-                           ■ Profesor de piano egresado del conservatorio de música de Morón Alberto Ginastera en el año 2012,
-                            luego de haber estudiado con los maestros Gabriel Goldenberg y Marcos Puente Olivera.
-                            Se formó en la carrera de composición musical con los maestros, Marcelo di Matthaeis,
-                            Claudio Schulkin, Jorge Sad y Eduardo Gramegna.
-                        </p>
-                        <p className="mb-4">
-                        ■ En el año 2008 es becado por el fondo nacional de las artes para escribir el libro
-                            “Introducción a la obra y al pensamiento de Juan Carlos Paz” y grabar el cd
-                            Introducción a la obra pianística de Juan Carlos Paz.
-                        </p>
-                        <p className="mb-4">
-                        ■  En el año 2015 es becado por el fondo nacional de las artes y
-                            el centro cultural Kirchner para participar del IV encuentro
-                            nacional de improvisación y composición musical.
-                        </p>
-                        <p className="mb-4">
-                        ■   Como Compositor: Se han estrenado obras suyas en Argentina y en Alemania,
-                            para conjuntos vocales e instrumentales. En Julio 2017 estrena
-                            su primera ópera (Vulgarcita).
-                        </p>
-                        <p className="mb-4">
-                        ■   Como pianista, director y/o preparador musical: Ópera Dido y Eneas de
-                            H. Purcell (de Abril a Junio 2017) Teatro Marienheim y Colonial.
-                            Ópera Vulgarcita de S. Sánchez(Julio 2017) Teatro Marienheim,
-                            Ópera Gianni Scchichi de G. Puccini (Septiembre-Octubre 2017) ,
-                            Ópera El Empresario de W.A. Mozart (Octubre2017) Teatro Hasta Trilce y
-                            Ópera Suor Angélica de G. Puccini (Julio 2018) en La Botica del ángel,
-                            (Noviembre 2023) Foyer del teatro Empire.
-                        </p>
-                        <p className="mb-4">
-                        ■   También ha ofrecido conciertos como pianista y organista en Obernhof, Lahnstein, Dausenau (2018), Giessen, Nassau y Frankfurt (2019) en Alemania.
-                        </p>
+
+                    <div className="flex flex-col md:flex-row-reverse  items-center gap-5 m-auto w-4/5 mt-5 mb-10 justify-center md:gap-32">
+
+                        <img src="../img/pianof.png" alt="Simón" className="rounded-full shadow shadow-white  md:w-1/4 w-1/2 " />
+                        <div className="flex flex-col">
+
+                            <p className="mb-4">
+                                En el año 2015 fui becado por el fondo nacional de las artes y
+                                el centro cultural Kirchner para participar del IV encuentro
+                                nacional de improvisación y composición musical.
+                            </p>
+                            <p className="mb-4">
+                                Como Compositor he estrenado obras en Argentina y en Alemania,
+                                para conjuntos vocales e instrumentales.
+                            </p>
+                            <p className="mb-4">
+                                En Julio de 2017 estrené
+                                mi primera ópera (Vulgarcita), que escribimos junto a mi amigo y colega
+                                Walter Castillo.
+                            </p>
+                        </div>
                     </div>
+
+                    <div className="flex flex-col md:flex-row  items-center gap-5 m-auto w-4/5 mt-5 mb-10 justify-center md:gap-32">
+
+                        <img src="../img/fotempre.jpg" alt="empresario"
+                            className="rounded-full shadow shadow-white  md:w-1/4 w-1/2"
+                        />
+
+                        <div>
+
+                            <p className="mb-4">
+                                Como pianista, director y/o preparador musical trabajé en la Ópera Dido y Eneas de
+                                H. Purcell presentandola en el Teatro Marienheim y en el teatro Colonial (Año 2017).
+                            </p>
+                            <p className="mb-4">
+                                Trabajé en el estreno de la Ópera Vulgarcita de S. Sánchez que se presentó
+                                en el Teatro Marienheim(Julio 2017), Trabajé en la Ópera Gianni Scchichi de G. Puccini y en la Ópera El Empresario teatral de W.A. Mozart
+                                presentando ambas dos en el Teatro Hasta Trilce(2017).
+                            </p>
+                            <p className="mb-4">
+                                Trabajé en la Ópera Suor Angélica de G. Puccini presentándola en La Botica del ángel(2018),
+                                y en el Foyer del teatro Empire(2023).
+                            </p>
+                        </div>
+
+                    </div>
+                    <p className="mb-4 md:w-2/3 md:ml-[200px]" >
+                        También he realizado dos giras de conciertos como pianista y organista en Obernhof, Lahnstein, Dausenau (2018), Giessen, Nassau y Frankfurt (2019) en Alemania.
+                    </p>
                 </div>
             </div>
 
