@@ -43,13 +43,10 @@ const Home = () => {
                             </p>
                             <p className="mb-4">
                                 En dicha institución me formé como pianista con los maestros Gabriel Goldenberg y Marcos Puente Olivera.
+                            </p>
+                            <p className="md-4">
                                 También me formé en composición musical con los maestros, Marcelo di Matthaeis,
                                 Claudio Schulkin, Jorge Sad y Eduardo Gramegna.
-                            </p>
-                            <p className="mb-4">
-                                En el año 2008 fui becado por el fondo nacional de las artes, lo cual me llevó
-                                a publicar en el año 2010 junto a mi amigo y colega Darío Duarte Nuñez el libro “Introducción a la obra y al pensamiento de Juan Carlos Paz”
-                                y a grabar el cd Introducción a la obra pianística de Juan Carlos Paz.
                             </p>
                         </div>
                     </div>
@@ -59,20 +56,16 @@ const Home = () => {
 
                         <img src="../img/pianof.png" alt="Simón" className="rounded-full shadow shadow-white  md:w-1/4 w-1/2 " />
                         <div className="flex flex-col">
+                            <p className="mb-4">
+                                En el año 2008 fui becado por el fondo nacional de las artes, lo cual me llevó
+                                a publicar en el año 2010 junto a mi amigo y colega Darío Duarte Nuñez el libro “Introducción a la obra y al pensamiento de Juan Carlos Paz”
+                                y a grabar el cd Introducción a la obra pianística de Juan Carlos Paz.
+                            </p>
 
                             <p className="mb-4">
                                 En el año 2015 fui becado por el fondo nacional de las artes y
                                 el centro cultural Kirchner para participar del IV encuentro
                                 nacional de improvisación y composición musical.
-                            </p>
-                            <p className="mb-4">
-                                Como Compositor he estrenado obras en Argentina y en Alemania,
-                                para conjuntos vocales e instrumentales.
-                            </p>
-                            <p className="mb-4">
-                                En Julio de 2017 estrené
-                                mi primera ópera (Vulgarcita), que escribimos junto a mi amigo y colega
-                                Walter Castillo.
                             </p>
                         </div>
                     </div>
@@ -84,23 +77,45 @@ const Home = () => {
                         />
 
                         <div>
+                            <p className="mb-4">
+                                Como Compositor he estrenado obras en Argentina y en Alemania,
+                                para conjuntos vocales e instrumentales.
+                            </p>
+                            <p className="mb-4">
+                                En Julio de 2017 estrené
+                                mi primera ópera (Vulgarcita), que escribimos junto a mi amigo y colega
+                                Walter Castillo.
+                            </p>
 
                             <p className="mb-4">
                                 Como pianista, director y/o preparador musical trabajé en la Ópera Dido y Eneas de
                                 H. Purcell presentandola en el Teatro Marienheim y en el teatro Colonial (Año 2017).
                             </p>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col md:flex-row-reverse  items-center gap-5 m-auto w-4/5 mt-5 mb-10 justify-center md:gap-32">
+
+                        <img src="../img/pnoinstrcuad.jpeg" alt="fotofinal"
+                            className="rounded-full shadow shadow-white  md:w-1/4 w-1/2"
+                        />
+                        <div className="flex flex-col">
                             <p className="mb-4">
                                 Trabajé en el estreno de la Ópera Vulgarcita de S. Sánchez que se presentó
-                                en el Teatro Marienheim(Julio 2017), Trabajé en la Ópera Gianni Scchichi de G. Puccini y en la Ópera El Empresario teatral de W.A. Mozart
+                                en el Teatro Marienheim(Julio 2017).
+                                </p>
+                                <p className="mb-4">
+                                 Trabajé en la Ópera Gianni Scchichi de G. Puccini y en la Ópera El Empresario teatral de W.A. Mozart
                                 presentando ambas dos en el Teatro Hasta Trilce(2017).
                             </p>
                             <p className="mb-4">
                                 Trabajé en la Ópera Suor Angélica de G. Puccini presentándola en La Botica del ángel(2018),
                                 y en el Foyer del teatro Empire(2023).
                             </p>
-                        </div>
 
+                        </div>
                     </div>
+
                     <p className="mb-4 md:w-2/3 md:ml-[200px]" >
                         También he realizado dos giras de conciertos como pianista y organista en Obernhof, Lahnstein, Dausenau (2018), Giessen, Nassau y Frankfurt (2019) en Alemania.
                     </p>
