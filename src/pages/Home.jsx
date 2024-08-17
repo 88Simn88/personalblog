@@ -101,15 +101,15 @@ const Home = () => {
                         />
                         <div className="flex flex-col">
                             <p className="mb-4">
-                                Trabajé en el estreno de la Ópera Vulgarcita de S. Sánchez que se presentó
+                                Participé en el estreno de la Ópera Vulgarcita de S. Sánchez que se presentó
                                 en el Teatro Marienheim(Julio 2017).
                                 </p>
                                 <p className="mb-4">
-                                 Trabajé en la Ópera Gianni Scchichi de G. Puccini y en la Ópera El Empresario teatral de W.A. Mozart
+                                 Colaboré en la Ópera Gianni Scchichi de G. Puccini y en la Ópera El Empresario teatral de W.A. Mozart
                                 presentando ambas dos en el Teatro Hasta Trilce(2017).
                             </p>
                             <p className="mb-4">
-                                Trabajé en la Ópera Suor Angélica de G. Puccini presentándola en La Botica del ángel(2018),
+                                Estuve involucrado en la Ópera Suor Angélica de G. Puccini presentándola en La Botica del ángel(2018),
                                 y en el Foyer del teatro Empire(2023).
                             </p>
 
