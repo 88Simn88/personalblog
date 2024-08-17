@@ -62,7 +62,8 @@ const Footer = () => {
 
       <div className=' flex justify-around items-center m-0 p-0'>
         <p className='p-2 text-white'>Copyright © 2024</p>
-        <p className='p-2 text-white'>Coded by <a className='font-bold' href="https://portfolio-simv3.netlify.app/" target='_blank'>Simn</a> </p>
+        
+        <p className='p-2 text-white'>Coded by <a className='font-bold text-lime-500' href="https://portfolio-simv3.netlify.app/" target='_blank'>Simn</a> </p>
       </div>
     </div>
   )
