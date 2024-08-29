@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
                     <span className="text-3xl text-indigo-600 mr-1 pt-2"></span>
                     <Link to={"/"} className="flex gap">
-                        <h2 className="ml-5 pt-2 md:pt-1 font-sans md:text-3xl text-2xl text-blue-500 hover:text-white">
+                        <h2 className="ml-5 pt-2 md:pt-1 font-sans md:text-3xl text-2xl text-[#165359] hover:text-white">
                             Simón Sánchez
                         </h2>
                     </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
                     {
                         Links.map((link) => (
                             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7" onClick={() => setOpen(!open)}>
-                                <Link className="text-blue-300 hover:text-white p-1 h-2 w-4/5" to={`/${link.link}`}>{link.name}</Link>
+                                <Link className="text-[#AFD7E3] hover:text-white p-1 h-2 w-4/5" to={`/${link.link}`}>{link.name}</Link>
                             </li>
                         ))
                     }

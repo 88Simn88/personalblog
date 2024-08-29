@@ -5,7 +5,7 @@ const Footer = () => {
     <div className='bg-black w-full flex flex-col items-center
     pt-10 gap-10'>
 
-      <div className="w-2/3 h-1 border-solid border-t-2 border-blue-500 p-0 "></div>
+      <div className="w-2/3 h-1 border-solid border-t-2 border-[#165359] p-0 "></div>
 
       <div className='flex flex-col md:flex-row md:gap-24 gap-10'>
 
@@ -52,13 +52,13 @@ const Footer = () => {
          
           <a className='mb-3 text-white' href='mailto:sgstumm@gmail.com'>✉ sgstumm@gmail.com</a>
           <p
-          className='text-blue-500 font-bold text-xl pt-5'
+          className='text-[#165359] font-bold text-xl pt-5'
           >Simón Sánchez</p>
         </div>
 
       </div>
 
-      <div className="w-5/6 h-1 border-solid border-t-2 border-blue-500 p-0 mt-8 md:mt-5"></div>
+      <div className="w-5/6 h-1 border-solid border-t-2 border-[#165359] p-0 mt-8 md:mt-5"></div>
 
       <div className=' flex justify-around items-center m-0 p-0'>
         <p className='p-2 text-white'>Copyright © 2024</p>

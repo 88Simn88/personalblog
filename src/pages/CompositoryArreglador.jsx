@@ -30,7 +30,7 @@ const CompositoryArreglador = () => {
 
            
 
-                <div className="gallery_media_container w-full md:p-10 pt-10 pb-10 bg-gradient-to-b from-[#000000] via-blue-500 to-[#000000]">
+                <div className="gallery_media_container w-full md:p-10 pt-10 pb-10 bg-gradient-to-b from-[#000000] via-[#165359] to-[#000000]">
                     {
                         media2.map((file, index) => (
                          
@@ -41,7 +41,7 @@ const CompositoryArreglador = () => {
                             >
                                 <li
                                 className=" h-[150px] w-[300px] flex items-center
-                                 bg-gradient-to-r from-[#00000088] via-blue-900 to-[#00000088] 
+                                 bg-gradient-to-r from-[#00000088] via-[#165359] to-[#00000088] 
                                  p-5 rounded-xl shadow shadow-white"
                                 >
 

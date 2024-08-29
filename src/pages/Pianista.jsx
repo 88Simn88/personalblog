@@ -35,7 +35,7 @@ const Pianista = () => {
 
             <div className="gallery_container w-full ">
 
-                <div className="gallery_media_container w-full md:p-10 pt-10 pb-10 bg-gradient-to-b from-[#000000] via-blue-500 to-[#000000]">
+                <div className="gallery_media_container w-full md:p-10 pt-10 pb-10 bg-gradient-to-b from-[#000000] via-[#165359] to-[#000000]">
                     {
                         media.map((file, index) => (
                            /*  <div className="media" key={index}
