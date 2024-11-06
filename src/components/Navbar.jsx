@@ -7,7 +7,10 @@ const Navbar = () => {
   
     const [open, setOpen] = useState(false)
     
-
+    const handleScroll= () => {
+        
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
  
 
     let Links = [
@@ -40,7 +43,7 @@ const Navbar = () => {
                 <ul className={`mt-0 pt-5 md:pt-1 md:flex md:items-center md:pb-0 px-12 absolute md:static rounded md:z-auto z-[-1] left-0 w-2/3 md:w-auto md:pl-0 pl-9 transition-all duration-500 bg-black ease-in ${open ? "top-17" : "top-[-490px]"}`}>
                     {
                         Links.map((link) => (
-                            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7" onClick={() => setOpen(!open)}>
+                            <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7" onClick={() => {setOpen(!open); handleScroll();}}>
                                 <Link className="text-[#AFD7E3] hover:text-white p-1 h-2 w-4/5" to={`/${link.link}`}>{link.name}</Link>
                             </li>
                         ))

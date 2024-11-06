@@ -21,7 +21,13 @@ const Footer = () => {
             
           </div>
 
-          <div className='h-12 flex justify-center gap-5 '>
+          <div className='md:h-12 h-24 flex md:flex-row flex-col items-center justify-center gap-5 '>
+              <div className='flex gap-5 h-1/2 md:h-full'>
+
+          <a className="h-full hover:scale-95 "  href="https://open.spotify.com/intl-es/artist/4mjFbyhsWhUeds6Zl0hgry?si=90Y9U-87RR6l7i9Zi24ryw"
+              target="_blank">
+              <img className="h-full w-full rounded-xl shadow shadow-white " src="./img/LogoSposf.png" alt="" />
+            </a>
 
              <a className="h-full hover:scale-95 "  href="https://www.instagram.com/simn_sanchez?igsh=OHNpaWJ2YW0waW41"
               target="_blank">
@@ -31,6 +37,9 @@ const Footer = () => {
               target="_blank">
               <img className="h-full w-full rounded-xl shadow shadow-white " src="./img/youtsf1.jpg" alt="" />
             </a>
+                </div>
+                <div className='flex gap-5 h-1/2 md:h-full'>
+
             <a className="h-full hover:scale-95" href="https://www.facebook.com/simonsanchezpyc"
               target="_blank">
               <img className="h-full rounded-xl shadow shadow-white" src="./img/facesf2.jpg" alt="" />
@@ -43,6 +52,7 @@ const Footer = () => {
               target="blank">
               <img className="h-full rounded-xl shadow shadow-white" src="./img/linkedin2.jpg" alt="" />
             </a> 
+                </div>
           </div>
 
         </div>

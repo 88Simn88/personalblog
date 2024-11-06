@@ -49,7 +49,7 @@ function AudioConverter() {
             >
                 <input
                  className="bg-gradient-to-r from-[#00000088] 
-             via-[#165359] to-[#00000088] md:ml-10 md:p-5 pt-5 pb-5 p-1  rounded text-white
+             via-[#165359] to-[#00000088] md:ml-10 md:p-5 pt-5 pb-5  rounded text-white
              " 
                  type="file" accept=".wav,.ogg,.aac,.flac,.m4a,.mp3" onChange={handleFileChange} />
                 <div className='ml-10 p-5'>
