@@ -23,7 +23,7 @@ const Pianista = () => {
                         que es la música...
                         <br />
                         Aquí podrán encontrar composiciones e improvisaciones <br />
-                        que he hecho y están en mi canal de Youtube, <br />
+                        que he hecho y están en mi canal de Youtube y en Spotify <br />
                         así como de algunos conciertos que he realizado. 
                         </p>
                 
